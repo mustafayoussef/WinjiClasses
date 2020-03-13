@@ -1,0 +1,76 @@
+.header{
+  height: 180px;
+  width: 100%;
+  background-image: url("../../../assets/bgHeader2.png") ;
+  margin-top: -5px;
+  padding-top: 0.5%;
+  overflow: hidden;
+}
+.creative-header{
+  padding: 1% 0% 1% 13%;
+  background-color: rgba(192, 192, 192, 0.247);
+  width: 43%;
+  border-radius: 0px 30px 30px 0px;
+}
+.p-header{
+  padding-left: 13%;
+  padding-bottom: 0%;
+  background-color: rgba(192, 192, 192, 0.151);
+  width: 50%;
+  border-radius: 0px 30px 30px 0px;
+}
+.icons{
+  margin-left: 13%;
+  padding-top: 15px;
+}
+.input-search{
+  position: relative;
+}
+.icon-search{
+  position: absolute;
+  right: 5%;
+  top: 60%;
+  color: #8f267b;
+}
+.card{
+  border-radius: 25px;
+}
+.edit-class{
+  display: none;
+}
+.num-class{
+  background-color: #919191;
+  border-radius: 25px 0px 0px 25px;
+  /* padding-top: 50px; */
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+ .card:hover .num-class  {
+
+  background-color: #8f267b;
+
+}
+.card:hover .edit-class{
+  display: block;
+}
+/* ---Model--- */
+.modal-header{
+  background-color: #630b59;
+}
+
+.section-class{
+  border: solid black 1px;
+  border-radius: 20px;
+}
+.input-add {
+  position: relative;
+}
+.icon-add{
+  color: #8b5aaf;
+  cursor: pointer;
+}
+.add-class{
+  padding-left: 4rem;
+  color: #8b5aaf;
+}

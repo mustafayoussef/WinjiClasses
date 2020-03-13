@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg">
+  <div class="pl-5">
+    <img [src]="logo" >
+    <a class="navbar-brand" routerLink="home">WinjiClasses</a>
+  </div>
+  <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+      aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavId">
+    <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="howitworks" routerLinkActive="active costom-active">How it works</a>
+      </li>
+      <li class="nav-item px-4">
+        <a class="nav-link" routerLink="explore" routerLinkActive="active costom-active">Explore</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="mycontests" routerLinkActive="active costom-active">My Contests</a>
+      </li>
+      <li class="nav-item px-4">
+        <a class="nav-link" routerLink="mypins" routerLinkActive="active costom-active">My Pins</a>
+      </li>
+      <button class="btn create">
+        <img [src]="plusIcon" >
+        Create</button>
+    </ul>
+  </div>
+  <div class="pr-5">
+    <img [src]="menu" class="px-3">
+    <img [src]="pic">
+  </div>
+</nav>

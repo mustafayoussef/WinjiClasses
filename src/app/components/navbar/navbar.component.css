@@ -1,0 +1,17 @@
+.create{
+  background-color: #ee5c7e;
+  border-radius: 35px;
+  padding: 5px 11px !important;
+  color: white;
+}
+.create:hover {
+  background-color: #e62753;
+  color: white;
+}
+.costom-active{
+  background-color: rgba(192, 192, 192, 0.315);
+  border-radius: 35px;
+}
+.bg{
+  background-image: url("../../../assets/bgHeader.png");
+}
